@@ -1,0 +1,65 @@
+.linkedin,
+.main section {
+    height: max-content;
+    width: 100%;
+    gap: 20px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linkedin,
+.main section:nth-child(odd) {
+    background-color: #588abc;
+    color: white;
+}
+
+.main section:nth-child(even) {
+    background-color: whitesmoke;
+    color: #014D99;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin h1,
+.linkedin h2,
+.linkedin h3,
+.linkedin h4,
+.main h1,
+.main h2,
+.main h3,
+.main h4 {
+    text-align: center;
+}
+
+.main main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main main img {
+    height: 480px;
+}
+
+.linkedin section  main {
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row h4 {
+    width: 300px;
+    text-align: center;
+}

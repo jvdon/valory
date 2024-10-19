@@ -1,0 +1,65 @@
+footer {
+    background: #014D99;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    color: white;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section main {
+    gap: 2px;
+}
+
+footer section main p {
+    font-size: 24px;
+}
+
+.valory {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.valory img {
+    width: 96px;
+}
+
+.valory p {
+    width: 80%;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes img {
+    width: 48px;
+    pointer-events: none;
+}
+
