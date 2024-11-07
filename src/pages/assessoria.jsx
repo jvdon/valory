@@ -10,8 +10,6 @@ import { useState } from 'react';
 import { CurrencyInput } from 'react-currency-mask';
 import { InputMask } from 'primereact/inputmask';
 import { Dialog } from "primereact/dialog"
-import TrabalheConosco from './trabalheConosco';
-
 
 export default function Assessoria() {
     const [termosModalShow, setTermosModalShow] = useState(false);
