@@ -152,7 +152,7 @@ export default function Assessoria() {
                 centered
             >
                 <h5>
-                    {termos.condicoes.split("<esp>").map(part => <p>{part}<br /></p>)}
+                    {termos.condicoes.split("<esp>").map((part, index) => <p key={index}>{part}<br /></p>)}
                 </h5>
                 <button onClick={() => setTermosModalShow(false)}>Close</button>
 
@@ -166,7 +166,7 @@ export default function Assessoria() {
                 centered
             >
                 <h5>
-                    {termos.privacidade.split("<esp>").map(part => <p>{part}<br /></p>)}
+                    {termos.privacidade.split("<esp>").map((part, index) => <p key={index}>{part}<br /></p>)}
                 </h5>
                 <button onClick={() => setPrivacidadeModalShow(false)}>Close</button>
             </Dialog>
